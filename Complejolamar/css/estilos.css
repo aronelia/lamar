@@ -1,0 +1,154 @@
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#inicio{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#header {
+    background-color: #0119200c;
+    height: 120px;
+    padding: 0;
+    border-bottom: 1px solid gray;
+
+  }
+  
+  #header #logo {
+    float: left;
+  }
+  
+  #header #logo img {
+    padding: 0px;
+    margin-top:10px;
+    max-height: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    #header {
+      height: 80px;
+    }
+    #header #logo img {
+      max-height: 40px;
+    }
+  }
+  /*-------------------------------LINEA BAJO TITULOS -----------------------------------*/
+  .line{
+    margin-left: 740px;
+    width: 100px;
+    height: 4px;
+    background-color: rgb(3, 3, 46); 
+    border-radius: 5px;
+  }
+
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  /* Nav Menu Essentials */
+  .nav-menu{
+    margin: 55px 0px 0px 55px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-menu li {
+    position: relative;
+    margin-left: 100px;
+  }
+  
+  .nav-menu > li {
+    float: left;
+  }
+  
+  .nav-menu ul {
+    left: 100%;
+  }
+  .nav-menu a{
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: rgb(0, 0, 61);
+    transition: 1s;
+  }
+  .nav-menu a:hover{
+    letter-spacing: 3px;
+    font-size: 18px;
+    color: white;
+    transition: 0,8s;
+  }
+  
+  /* Nav Meu Container */
+  #nav-menu-container {
+    float: right;
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    #nav-menu-container {
+      display: none;
+    }
+  }
+
+  /*---------------------------
+     SECTION INFORMACION
+  -----------------------------*/
+  #info {
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .caja1, .caja2, .caja3{
+    height: 450px;
+    width: 450px;
+    margin-top: 30px;
+
+    text-align: center;
+    padding-top: 20px;
+  }
+  .caja1{
+    margin-right: 20px;
+  }
+  .caja3{
+    margin-left: 20px;
+  }
+    /*---------------------------
+     SECTION GALERIA
+  -----------------------------*/
+  #galeria{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    justify-content: center;
+  }
+
+ .div-imagen {
+  display:inline-block;
+  position:relative;
+  margin-top: 55px;
+}
+
+.div-imagen > div {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  padding:10px;
+  margin:0;
+}
+
+.desvanecer:hover {
+  opacity: 0.09;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+/*------------------------------------------------
+       SECTION CONTACTO
+--------------------------------------------------*/
+
+
+
